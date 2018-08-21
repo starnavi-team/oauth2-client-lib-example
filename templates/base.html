@@ -8,6 +8,8 @@
 <body>
 <div>
   <h1>OAuth2 client</h1>
+  <a href="{% url 'oauth2_client:login' %}">Log in</a>
+  <a href="{% url 'oauth2_client:logout' %}?token=<token>">Log out</a>
 </div>
 </body>
 </html>

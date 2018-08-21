@@ -123,6 +123,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+OAUTH2_SERVER = 'http://localhost:8000'
+OAUTH2_CLIENT_ID = 'lZaALhrOtrDnxzRrekheMB5yeZyKJPISjpQlpDEI'
+OAUTH2_CLIENT_SECRET = '7jjgr609Vv1dSKTE7pw2z7y200I2jv5FV0AQwgqWs0OroP9vBTFtCGD4tnCVP1M0RWwwwlBURvDibHBlQMvjnQBDZcFSSnBHRTMmyNrd5BIc4dcnNzAtElVdsFkf15By'
 
 # settings_local.py can be used to override environment-specific settings
 # like database and email that differ between development and production.
